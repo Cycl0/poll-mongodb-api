@@ -1,0 +1,29 @@
+{
+  "name": "pool_mongodb_api",
+  "version": "1.0.0",
+  "description": "project for portfolio, which allows CRUD of users and polls. It uses the technologies: express and mongodb with mongoose ORM",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "start:dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cycl0/pool_mongodb_api.git"
+  },
+  "keywords": [],
+  "author": "Lucas Kenzo Cyra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cycl0/pool_mongodb_api/issues"
+  },
+  "homepage": "https://github.com/Cycl0/pool_mongodb_api#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongoose": "^6.4.4"
+  }
+}
